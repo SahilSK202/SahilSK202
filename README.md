@@ -31,6 +31,7 @@ I'm a **_graduate in Mathematics_** currently pursuing M.Sc. IMCA ( Industrial M
 
 ### Recent Projects 🎉🎉
 
+- [Home](https://github.com/SahilSK202/Home)
 - [Chess Game Result Prediction](https://github.com/SahilSK202/Chess-Game-Result-Prediction)
 - [Nifty-50 Index Dashboard _ Time Series Analysis](https://github.com/SahilSK202/Nifty50-Index-Dashboard)
 - [Crop Recommendation System)](https://github.com/SahilSK202/Crop-Recommendation-System)

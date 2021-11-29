@@ -55,9 +55,9 @@ I'm a **_graduate in Mathematics_** currently pursuing M.Sc. IMCA ( Industrial M
 
 | Skill                       | Technologies used to work or Known                                                                                                      |
 | :-------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
-| Python                      | Numpy, Pandas,Spark ,Matplotlib, Seaborn, Plotly, Scikit-Learn, pickle, Keras, Open-cv, Tensorflow, Pytorch                             |
+| Python                      | Numpy, Pandas,Spark ,Matplotlib, Seaborn, Plotly, Scikit-Learn, pickle, Keras, Open-cv, Tensorflow                            |
 | Machine Learning            | Linear Regression, Logistic Regression, Decision Tree, Support vector machine, Naive Bayes, Ensemble technique, Hyper parameter tunning |
-| Deep Learning               | Artificial Neural Network, Convolutional Neural Network, Recurrent Neural Network, LeNET, AlexNet, VGG, Resnet, InceptionNet            |
+| Deep Learning               | Artificial Neural Network, Convolutional Neural Network            |
 | Computer Vision             | RCNN family , Yolo family                                                                                                               |
 | Web Technologies            | HTML, CSS, JS, MERN, Flask                                                  |
 | Android Development         | Flutter, Dart, Android Studio                                               |

@@ -17,8 +17,8 @@ I'm a **_graduate in Mathematics_** currently pursuing M.Sc. IMCA ( Industrial M
 
 ---
 
-<img align="right" alt="GIF" src="https://media.giphy.com/media/USV0ym3bVWQJJmNu3N/giphy.gif" />
-<!-- <img align="right" alt="GIF" src="https://media.giphy.com/media/ITRemFlr5tS39AzQUL/giphy.gif" /> -->
+<!-- <img align="right" alt="GIF" src="https://media.giphy.com/media/USV0ym3bVWQJJmNu3N/giphy.gif" /> -->
+<img align="right" alt="GIF" height="250" width="350" src="https://github.com/SahilSK202/SahilSK202/blob/main/Images/typing_man.gif" />
 
 - 🔭 I have insights into **_Machine Learning, Deep Learning, Computer vision and Reinforcement Learning_**
 - 💪 I am extending myself towards **_Data Engineering, Cloud, and DevOps_** to achieve a level of **_Full-Stack Data Science_**.

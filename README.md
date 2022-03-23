@@ -37,7 +37,7 @@ I'm a **_graduate in Mathematics_** currently pursuing M.Sc. IMCA ( Industrial M
 - [Crop Recommendation System)](https://github.com/SahilSK202/Crop-Recommendation-System)
 - [Hello_Mnist_Flutter_APP](https://github.com/SahilSK202/MNIST_Flutter_Application)
 ---
-
+## 🔧 Skills
 
 | Skill                       | Technologies worked on                                                      |
 | :-------------------------- | :-------------------------------------------------------------------------- |

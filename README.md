@@ -23,6 +23,9 @@ A detail oriented with **problem solving mindset** and a passion for uncovering 
 - 🌱 I’m currently exploring various domain knowledge.
 - 👯 I’m looking to collaborate on Data Analytics or ML Projects
 - <h3 align="left">Visit my portfolio: <a target="__blank" href = "https://sahilsk202.github.io/Portfolio/"> https://sahilsk202.github.io/Portfolio/ </a></h3> 
+- <h3 align="left">Read my articles: <a target="__blank" href = "https://www.linkedin.com/search/results/all/?keywords=%23sahilsk"> LinkedIn Articles </a></h3>
+
+
 <br>
 <br>
 

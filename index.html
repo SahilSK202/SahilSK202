@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="Images/favicon.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+
+</head>
+
+<body class="container">
+    <!-- The button for scrolling up to the home. Hidden initially -->
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+
+    <!-- The navbar-->
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="/">
+                    < Sahil Kavitake />
+                </a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <!-- <li><a href="#services" class="menu-btn">Services</a></li> -->
+                <li><a href="#project" class="menu-btn">Projects</a></li>
+                <li><a href="#skills" class="menu-btn">Skills</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+                <li><a target="__blank"
+                        href="https://drive.google.com/drive/folders/16kdk9Tc1P0RGi7MaKcQ77Vrkc7IqzAUq?usp=sharing"
+                        class="resume-btn" class="menu-btn">Resume</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello World, meet</div>
+                <div class="text-2">Sahil Kavitake</div>
+                <div class="text-3 secondaryColor">Data Analysis | Full Stack | ML</div>
+                <div class="text-4">
+
+                    I transform complex data into valuable insights <br>
+                    that drive smarter decisions and deliver tangible results.
+
+                </div>
+                <!-- <a target="__blank" href="https://www.linkedin.com/in/sahil-kavitake/">Linkedin Profile</a> -->
+                <!-- <a style="margin-left: 2%;" target="__blank"
+                    href="https://drive.google.com/drive/folders/16kdk9Tc1P0RGi7MaKcQ77Vrkc7IqzAUq?usp=sharing">Download
+                    CV</a> -->
+                <!-- <a target="__blank" style="margin-left: 2%;" href="https://github.com/SahilSK202">Github
+                    Profile</a> -->
+                <!-- <iframe src="https://embed.lottiefiles.com/animation/100647"></iframe> -->
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- about section start -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="./Images/me2.jpg" alt="">
+                </div>
+                <div class="column right">
+                    <!-- <div class="text">I'm Sahil and I'm into <span class="typing-2"></span></div> -->
+
+                    <p>I am a <strong> post-grad professional</strong>, skilled in data analysis, machine
+                        learning, web, and Android development. <br> A detail oriented with <strong>problem solving
+                            mindset</strong>
+                        and a passion for uncovering actionable insights and delivering data-driven
+                        solutions.<br><br>
+
+                        I thrive in team environments and excel in communicating complex technical concepts. With a
+                        commitment to staying up-to-date with emerging technologies, I continually strive to enhance my
+                        skills and contribute to impactful projects. <br><br>
+                        <strong>" I think no matter how hard the past is, you can always begin again and I believe every
+                            day is
+                            a chance to begin again. The only goal is to become better than yesterday... "</strong>
+                    </p>
+
+
+                    <table class="skills-table">
+                        <tr>
+                            <td><i class="fas fa-magnifying-glass-chart"></i></td>
+                            <td>Data Analyst</td>
+                            <td><i class="fas fa-laptop-code"></i></td>
+                            <td>15+ Projects Completed</td>
+                            <td><i class="fas fa-building"></i></td>
+                            <td><span id="exp-yrs"></span> Years IT Industry Experience</td>
+                        </tr>
+                    </table>
+                    <!-- <a target="__blank"
+                        href="https://drive.google.com/drive/folders/16kdk9Tc1P0RGi7MaKcQ77Vrkc7IqzAUq?usp=sharing">Download
+                        CV</a> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- project section start -->
+    <section class="services" id="project">
+        <div class="max-width">
+            <h2 class="title">Major Projects</h2>
+            <div class="serv-content">
+                <div class="card">
+                    <a href="#projects">
+                        <div class="box">
+                            <i class="fas fa-users"></i>
+                            <div class="text">Lead
+                                Management System</div>
+                            <p>Designed and developed a MERN stack web application that can
+                                make things easy to track leads for any Institution.
+                                Implemented features like data upload and segregation, email
+                                automation, interactive dashboard, generated useful reports.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a target="__blank" href="https://github.com/SahilSK202/Chess-Game-Result-Prediction">
+                        <div class="box">
+                            <i class="fas fa-code"></i>
+                            <div class="text">
+                                Chess
+                                Game Result Prediction
+                            </div>
+                            <p>An End to End Machine Learning project that can
+                                predict the result of chess game by rating of both
+                                players and the chess opening played.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a target="__blank" href="https://github.com/SahilSK202/Nifty50-Index-Dashboard">
+                        <div class="box">
+                            <i class="fas fa-chart-line"></i>
+                            <div class="text">Nifty-50 Index
+                                Dashboard</div>
+                            <p>Developed a dashboard with Plotly and Dash python tools that predicts and forecasts
+                                Nifty-50
+                                Index price using Time Series Analysis SARIMAX model.</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- <div class="card">
+                    <a target="__blank" href="https://github.com/SahilSK202/Action-Survival-Game">
+                        <div class="box">
+                            <i class="fas fa-gamepad"></i>
+                            <div class="text">Action Survival
+                                Game</div>
+                            <p>An Action Survival Game made with pure HTML, CSS, JavaScript, Node, and Express.
+                                Making learning fun motivates students and helps them pay attention and stay focused on
+                                the
+                                subject..</p>
+                        </div>
+                    </a>
+                </div> -->
+            </div>
+            <br><br><br>
+            <div class="serv-content">
+                <!-- <div class="card">
+                    <a href="#projects">
+                        <div class="box">
+                            <i class="fas fa-users"></i>
+                            <div class="text">Lead
+                                Management System</div>
+                            <p>Designed and developed a MERN stack web application that can
+                                make things easy to track leads for any Institution.
+                                Implemented features like data upload and segregation, email
+                                automation, interactive dashboard, generated useful reports.
+                            </p>
+                        </div>
+                    </a>
+                </div> -->
+                <!-- <div class="card">
+                    <a target="__blank" href="https://github.com/SahilSK202/MNIST_Flutter_Application">
+                        <div class="box">
+                            <i class="fas fa-sort-numeric-desc"></i>
+                            <div class="text">HELLO
+                                MNIST</div>
+                            <p>A Flutter Application For Handwritten Digit Classifier This is a deep learning project
+                                where
+                                we have classified hand written digits using simple ANN, where
+                                we can draw a digit, upload a image consisting of a digit and ANN model will display the
+                                predicted digit.
+                            </p>
+                        </div>
+                    </a>
+                </div> -->
+
+            </div>
+            <div class="serv-content">
+                <div class="card" style="visibility: hidden;"></div>
+                <div class="card">
+                    <a target="__blank" href="https://github.com/SahilSK202/">
+                        <div class="box">
+                            <i class="fa fa-code-fork"></i>
+                            <div class="text">Find More On Github</div>
+                            <p></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card" style="visibility: hidden;"></div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- skills section start -->
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">My Skills</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">My creative skills & experiences.</div>
+                    <ul>
+                        <li>I possess strong <strong> multitasking abilities</strong> and am proficient in
+                            object-oriented programming ,data pre-processing,<strong> data analysis, </strong>
+                            developing ML
+                            models with good
+                            knowledge of data structures and algorithms and dbms.
+                        </li><br>
+                        <li>Alongside my experience <strong> at multiple
+                                competitive
+                                agencies,</strong> my solid programming background equips me to make significant
+                            contributions to the organization's growth and success.
+                        </li><br>
+                        <li>During my bachelor's, I actively participated as <strong> NCC
+                                Cadet</strong> gaining valuable insights into team leadership, effective management, and
+                            the importance of unity. and much more.
+                        </li><br>
+                        <li>Furthermore, my lifelong passion for playing video games has fostered my
+                            <strong>problem-solving
+                                abilities </strong> and nurtured a persistent mindset towards achieving my goals. This
+                            drive and
+                            resilience continue to inspire me to overcome challenges and <strong>seek innovative
+                                solutions.</strong>
+                        </li><br>
+                        <div>
+
+
+                            <img height="60" class="devicons"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" />
+
+
+                            <img height="60" class="devicons"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+
+
+                            <img height="60" class="devicons"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/minitab/minitab-original.svg" />
+
+
+
+                            <img height="60" class="devicons"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-plain-wordmark.svg" />
+
+
+                            <img height="60" class="devicons"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" />
+
+                            <img height="60" class="devicons"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" />
+
+
+                            <img height="60" class="devicons"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" />
+
+                            <img height="60" class="devicons"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" />
+
+
+                            <img height="60" class="devicons"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original-wordmark.svg" />
+
+
+                            <img height="60" class="devicons"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg" />
+
+
+                            <img height="60" class="devicons"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" />
+
+
+                            <img height="60" class="devicons"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original-wordmark.svg" />
+
+                            <img height="60" class="devicons"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
+
+
+                            <img height="60" class="devicons"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg" />
+
+
+                            <img height="60" class="devicons"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" />
+
+
+                        </div>
+                        <!-- <a target="__blank"
+                            href="https://drive.google.com/drive/folders/16kdk9Tc1P0RGi7MaKcQ77Vrkc7IqzAUq?usp=sharing">Download
+                            CV</a> -->
+
+                    </ul>
+
+                    <!-- <a href="https://www.linkedin.com/in/sahil-kavitake-6226261a3/">Read more</a> -->
+                </div>
+
+                <div class="column right">
+                    <table class="skills-table">
+
+                        <tr>
+                            <td>Programming Languages</td>
+                            <td>Python, JavaScript, Dart, Java, C++, R </td>
+                        </tr>
+                        <tr>
+                            <td>Data Analysis</td>
+                            <td>Power BI, Excel, ETL pipeline, Plotly, D3js, Statistical
+                                Analysis, Machine Learning Algorithms, Data Cleaning, Data Analysis
+                                and Exploration, Hypothesis Testing, Data
+                                Visualizations, </td>
+                        </tr>
+                        <tr>
+                            <td>DBMS</td>
+                            <td>SQL, MySQL Sqlite, MongoDB, PostgreSql</td>
+                        </tr>
+                        <tr>
+                            <td>Machine Learning</td>
+                            <td>ML Algorithms for Regression, Classification and Clustering,
+                                Ensemble technique, Hyper parameter tuning,
+                                Numpy, Pandas, Matplotlib, Seaborn, Plotly,
+                                Scikit-Learn, pickle.</td>
+                        </tr>
+                        <!-- <tr>
+                            <td>Deep Learning-</td>
+                            <td>Artificial Neural Network, Convolutional Neural
+                                Network, Transfer Learning,Tensorflow, Keras,
+                                Open-CV</td>
+                        </tr> -->
+                        <tr>
+                            <td>Web Technologies</td>
+                            <td>HTML, CSS, JS, MERN stack, React JS, Node.JS, Flask </td>
+                        </tr>
+                        <tr>
+                            <td>Android Development</td>
+                            <td>Flutter, Kotlin, Swift, Android Studio </td>
+                        </tr>
+
+                        <tr>
+                            <td>Tools</td>
+                            <td>Git, VS Code, JIRA, Jupyter Notebook</td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <hr style="border: 2px solid black;">
+
+    <!-- contact section start -->
+    <section class="contact" id="contact">
+        <div id="contact-section">
+            <div class="max-width">
+                <h2 class="title">Contact Me</h2>
+                <div class="contact-content">
+                    <div class="column left">
+                        <div class="text">Get in Touch</div>
+                        <p>I would love to connect and have a chat with people from various domains, feel free to reach
+                            out.
+                            😊💜
+                        </p>
+                        <div class="icons">
+                            <div class="row">
+                                <i class="fas fa-envelope"></i>
+                                <div class="info">
+                                    <div class="head">E-mail</div>
+
+                                    <div class="sub-title"><a href="mailto:sahil.kavitake202@gmail.com" target="_blank"
+                                            rel="noopener noreferrer"
+                                            style="color: black;">sahil.kavitake202@gmail.com</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <i class="fas fa-phone"></i>
+                                <div class="info">
+                                    <div class="head">Call Me</div>
+                                    <div class="sub-title">+91 8459225341</div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div class="info">
+                                    <div class="head">Location</div>
+                                    <div class="sub-title">Pune, Maharashtra, India</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="column right">
+                        <div class="text">Hire Me </div>
+                        <a target="__blank"
+                            href="https://drive.google.com/drive/folders/16kdk9Tc1P0RGi7MaKcQ77Vrkc7IqzAUq?usp=sharing">
+                            <i class="fa fa-file-lines"></i> Resume</a>
+                        <br>
+                        <div class="text">Send Message </div>
+                        <a href="https://wa.me/+918459225341"><i class="fas fa-brands fa-whatsapp"></i> Whatsapp</a>
+                        <br>
+                        <div class="text">Connect with me on Linkedin</div>
+                        <a href="https://www.linkedin.com/in/sahil-kavitake-6226261a3/"><i
+                                class="fa-brands fa-linkedin"></i>
+                            Linkedin
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer section start -->
+    <footer>
+        <span>Created By <a href="https://www.linkedin.com/in/sahil-kavitake/">Sahil Kavitake</a> with 💖
+            <!-- <span class="far fa-copyright"></span>| 2021 All rights reserved.</span> -->
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

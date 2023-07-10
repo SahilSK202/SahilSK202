@@ -1,4 +1,4 @@
-<img src = "https://github.com/SahilSK202/SahilSK202/blob/main/Images/Banner.png" height = 300 width = 100%><img>
+<img src = "https://github.com/SahilSK202/SahilSK202/blob/main/Images/Banner.png" width = 100%><img>
 
 <h1 align="center">Hi <img height=30 width=30 alt="GIF" src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" />, I'm Sahil Kavitake</h1>
 <h2 align="center">Data Analyst | Excel | Power BI | SQL | GCP | Python | Problem Solver</h2>

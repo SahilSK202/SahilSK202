@@ -26,11 +26,12 @@ A detail oriented with **problem solving mindset** and a passion for uncovering 
 - <h3 align="left">Read my articles: <a target="_blank" href = "https://www.linkedin.com/search/results/all/?keywords=%23sahilsk"> LinkedIn Articles </a></h3>
 - <h3 align="left">Find my work: <a target="_blank" href = "https://github.com/SahilSK202/Home"> Completed Projects </a></h3>
 
-
+<!--
 <br>
 <br>
 
 ![Sahil's github stats](https://github-readme-stats.vercel.app/api?username=SahilSK202&theme=tokyonight&show_icons=true) [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=SahilSK202&theme=tokyonight)](https://git.io/streak-stats)
+-->
 
 <br>
 <br>
